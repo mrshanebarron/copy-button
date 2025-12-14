@@ -1,12 +1,1 @@
-{
-    "name": "@laraveldesign/copy-button",
-    "version": "1.0.0",
-    "description": "Copy to clipboard button for Laravel",
-    "main": "resources/js/vue/index.js",
-    "module": "resources/js/vue/index.js",
-    "files": ["resources/js/vue"],
-    "keywords": ["laravel", "copy", "clipboard", "button", "livewire", "vue"],
-    "author": "Shane Barron <mrshanebarron@gmail.com>",
-    "license": "MIT",
-    "peerDependencies": {"vue": "^3.0.0"}
-}
+{"name": "@mrshanebarron/copy-button", "version": "1.0.0", "main": "resources/js/index.js", "peerDependencies": {"vue": "^3.0.0"}}

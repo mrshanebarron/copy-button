@@ -7,23 +7,14 @@ use Livewire\Component;
 class CopyButton extends Component
 {
     public string $text = '';
-    public string $label = 'Copy';
-    public string $copiedLabel = 'Copied!';
-    public string $size = 'md';
-    public string $variant = 'default';
+    public string $successMessage = 'Copied!';
+    public int $timeout = 2000;
 
-    public function mount(
-        string $text = '',
-        string $label = 'Copy',
-        string $copiedLabel = 'Copied!',
-        string $size = 'md',
-        string $variant = 'default'
-    ): void {
+    public function mount(string $text = '', string $successMessage = 'Copied!', int $timeout = 2000): void
+    {
         $this->text = $text;
-        $this->label = $label;
-        $this->copiedLabel = $copiedLabel;
-        $this->size = $size;
-        $this->variant = $variant;
+        $this->successMessage = $successMessage;
+        $this->timeout = $timeout;
     }
 
     public function render()
