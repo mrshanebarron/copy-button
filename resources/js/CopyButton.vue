@@ -14,7 +14,7 @@
 import { ref } from 'vue';
 
 export default {
-  name: 'LdCopyButton',
+  name: 'SbCopyButton',
   props: {
     text: { type: String, required: true },
     successMessage: { type: String, default: 'Copied!' },

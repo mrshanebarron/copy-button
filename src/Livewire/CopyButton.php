@@ -19,6 +19,6 @@ class CopyButton extends Component
 
     public function render()
     {
-        return view('ld-copy-button::livewire.copy-button');
+        return view('sb-copy-button::livewire.copy-button');
     }
 }
