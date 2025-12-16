@@ -16,6 +16,6 @@
     </template>
     <span x-text="copied ? '{{ $successMessage }}' : '{{ $slot->isEmpty() ? 'Copy' : '' }}'"></span>
     @if(!$slot->isEmpty())
-        <span x-show="!copied">{{ $slot }}</span>
+        <span x-show="!copied">{{ $slot ?? '' }}</span>
     @endif
 </button>
